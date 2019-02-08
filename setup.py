@@ -1,4 +1,4 @@
-"""Pip install script for bedrock.analytics.logit2.*
+"""Pip install script for opals.cycle2_4_active_learning
 """
 
 from setuptools import setup, find_packages
