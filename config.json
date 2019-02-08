@@ -1,0 +1,12 @@
+{ "opal-analytics-gallup_cycle2_active_learning":
+        {
+    	    "description": "NGS2 Gallup Witness Project Cycle 2; Runs Active Learning R script",
+            "units": "ActiveLearning.py",
+            "supports": "",
+            "python_dependencies": "pathlib rpy2",
+            "system_dependencies": "",
+            "api": "analytics",
+            "interface": "analytics",
+            "installation_script": ""
+        }
+}
