@@ -3,7 +3,7 @@ import os
 import pathlib
 import traceback
 
-from bedrock.analytics.CONSTANTS import RESULTS_PATH
+from bedrock.CONSTANTS import RESULTS_PATH
 from bedrock.analytics.api import results_collection
 from bedrock.analytics.utils import Algorithm, getCurrentTime, getNewId
 import logging
