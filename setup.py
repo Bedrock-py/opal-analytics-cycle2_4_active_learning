@@ -21,7 +21,7 @@ def opal_registration():
     for alg in algs:
         success = manage_opals("add", "analytics", "opals.cycle2_4_active_learning.{0}.{0}".format(alg))
         if not success:
-            success = manage_opals("reload", "ingest", "opals.cycle2_4_active_learning.{0}.{0}".format(alg))
+            success = manage_opals("reload", "analytics", "opals.cycle2_4_active_learning.{0}.{0}".format(alg))
             if not success:
                 raise Exception("Unable to install: {}".format(alg))
 
